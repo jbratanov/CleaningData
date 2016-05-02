@@ -10,7 +10,8 @@ a smartphone (Samsung Galaxy S II) on the waist. Using its embedded acceleromete
 acceleration and 3-axial angular velocity at a constant rate of 50Hz data were captured, of accelerometer and gyroscope
 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
-The subset of features is related to mean and Standard Deviation measurements for the data collected.  Original variable names were changed to make them human readable.
+The subset of features is related to mean and Standard Deviation measurements for the data collected.  Original variable names were changed to make them human readable.  “tidyData.txt” dataset is create with the average for each activity and subject
+
 The tidayData.txt file is a space separated dataset which can be read using the following R-programming function:
 ####__read.table(tidyData.txt, header = FALSE, sep = "")__
 
