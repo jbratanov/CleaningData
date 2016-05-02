@@ -12,7 +12,7 @@ acceleration and 3-axial angular velocity at a constant rate of 50Hz data were c
 
 The subset of features is related to mean and Standard Deviation measurements for the data collected.  Original variable names were changed to make them human readable.
 The tidayData.txt file is a space separated dataset which can be read using the following R-programming function:
-read.table(tidyData.txt, header = FALSE, sep = "")
+####__read.table(tidyData.txt, header = FALSE, sep = "")__
 
 ### Feature Vector variables:
 * __Mean:__  Average mean values of multiple measurements of the original variables. Type: Real number
