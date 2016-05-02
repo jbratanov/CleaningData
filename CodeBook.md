@@ -17,8 +17,7 @@ The tidayData.txt file is a space separated dataset which can be read using the 
 ### Feature Vector variables:
 * __Mean:__  Average mean values of multiple measurements of the original variables. Type: Real number
 * __STD:__  Average Standard deviation of multiple measurements of the original variables. Type: Real number
-* __ActivityId:__ Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
-* __ActivityName:__ Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* __ActivityId:__ Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 * __SubjectId:__ Identifier, identifying each subject Type: Integer Values: 1 : 30
 
 ### Tidy Dataset variables and type
