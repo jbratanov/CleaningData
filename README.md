@@ -9,13 +9,12 @@ The data in the "Human Activity Recognition Using Smartphones Dataset Version 1.
 *	__activity_labels.txt:__ List of class labels and their activity name.
 *	__train/X_train.txt:__ Training set.
 *	__train/y_train.txt:__ Training labels.
-*	__train/subject_train.txt:__ ID's of subjects in the training data
+*	__train/subject_train.txt:__ IDs of subjects in the training data
 *	__test/X_test.txt:__ Test set.
 *	__test/y_test.txt:__ Test labels.
-*	__test/subject_test.txt:__ ID's of subjects in the training data
+*	__test/subject_test.txt:__ IDs of subjects in the training data
 
-  __The original data is available at:__
- https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The original data is available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### A brief description of the script:
 The run_analysis.R script merges data from a number of .txt files and produces a tidy data set which may be used for further analysis.
