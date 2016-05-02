@@ -5,14 +5,14 @@ Run_Analysis.R R-script on Human Activity Recognition Using Smartphones Dataset
 The run_analysis.R script reads data from the "Human Activity Recognition Using Smartphones Dataset Version 1.0" and produces a new - tidy - dataset which may be used for further analysis.
 The data in the "Human Activity Recognition Using Smartphones Dataset Version 1.0" have been taken from experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz data were captured. The experiments were video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% the test data. 
 ### The original dataset included the following data files:
-*	'features.txt': List of all features.
+*	__features.txt:__ List of all features.
 *	__activity_labels.txt:__ List of class labels and their activity name.
 *	__train/X_train.txt:__ Training set.
-*	__train/y_train.txt':__ Training labels.
-*	__train/subject_train.txt':__ ID's of subjects in the training data
-*	__test/X_test.txt':__ Test set.
-*	__test/y_test.txt':__ Test labels.
-*	__test/subject_test.txt':__ ID's of subjects in the training data
+*	__train/y_train.txt:__ Training labels.
+*	__train/subject_train.txt:__ ID's of subjects in the training data
+*	__test/X_test.txt:__ Test set.
+*	__test/y_test.txt:__ Test labels.
+*	__test/subject_test.txt:__ ID's of subjects in the training data
 
   __The original data is available at:__
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
